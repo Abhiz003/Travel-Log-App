@@ -47,7 +47,6 @@ const Display = () => {
 				{handleTimeLine()}
 				
 				<i className="fa-solid fa-caret-down text-light"></i>
-				<i className="fa-solid fa-caret-down text-light"></i>
 			</div>
 
 		</>
