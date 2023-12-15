@@ -1,0 +1,16 @@
+
+.navbar {
+    width:100%;
+    background-color: aqua;
+    padding:10px 20px;
+}
+.navlinks ul{
+    gap:2%;
+}
+
+.navbar h1{
+    font-family:"AR CENA";
+    font-weight:900;
+}
+
+
