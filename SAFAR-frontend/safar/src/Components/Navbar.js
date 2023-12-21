@@ -10,10 +10,10 @@ const Navbar = () => {
 				<div className='navlinks'>
 					<ul className='d-flex'>
 						<Link to="/" className="btn btn-primary">HOME</Link>
-						<Link to="/display" className="btn btn-primary">DISPLAY</Link>
-						<Link to="/viewblogs" className="btn btn-primary">Blogs</Link>
-						<Link to="/login" className="btn btn-warning">SIGNUP</Link>
-						<Link to="/signup" className="btn btn-success">LOGIN</Link>
+						<Link to="/feed" className="btn btn-primary">FEED</Link>
+						<Link to="/viewblogs" className="btn btn-primary">GUIDE</Link>
+						<Link to="/signup" className="btn btn-warning">SIGNUP</Link>
+						<Link to="/login" className="btn btn-success">LOGIN</Link>
 					</ul>
 				</div>
 			</nav>

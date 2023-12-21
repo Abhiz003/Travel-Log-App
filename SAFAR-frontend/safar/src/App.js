@@ -7,6 +7,7 @@ import ViewBlogs from './Components/ViewBlogs';
 import TripLog from './Components/TripLog';
 import Login from './AuthPages/Login'
 import SignUp from './AuthPages/SignUp'
+import Feed from './Components/Feed';
 // import Footer from './Components/Footer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/home' element={<Home/>}/>
+      <Route path='/feed' element={<Feed/>}/>
       <Route path='/display' element={<Display/>}/>
       <Route path='/viewblogs' element={<ViewBlogs/>}/>
       <Route path='/triplog' element={<TripLog/>}/>
