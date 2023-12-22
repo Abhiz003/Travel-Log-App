@@ -77,7 +77,8 @@ const AllUsers = () => {
                     </div>
 
                 </div>
-                <Link to="/addAtale" className="btn btn-success mt-5">Add A Tale</Link>
+                <Link to="/addAtale" className="btn btn-success mt-5">Add A Tale</Link> <br></br>
+                <Link to="/shareJourney" className="btn btn-success mt-5">Share my Journey</Link>
         </main>
             </div>
         </>
