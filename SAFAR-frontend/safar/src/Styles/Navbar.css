@@ -4,17 +4,15 @@
     background-color: aqua;
     padding:10px 20px;
 }
-.navlinks ul{
+.navlinks1{
+    position:relative;
+    right:20px;
+}
+.navlinks1 ul{
     gap:2%;
 }
 
-.navbar h1{
-    font-family:"AR CENA";
-    font-weight:900;
-}
-
-.navbar img{
+.navbar .logo{
     height:50px;
     width:50px;
-}
-
+} 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import Carousel from './Carousel';
 
 const Home = () => {
   const [responseText, setResponseText] = useState('');
@@ -17,8 +18,8 @@ const Home = () => {
 
   return (
     <>
-      {/* Your Carousel component */}
       
+      <Carousel/>
       <div>
         <button onClick={handleRequest}>hello</button>
         <h1>{responseText}</h1>

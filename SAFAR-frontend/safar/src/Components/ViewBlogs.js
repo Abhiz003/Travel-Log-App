@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Styles/ViewBlog.css'
-import Sidebar from './Sidebar'
+import SliderSidebar from './SliderSidebar'
 
 
 
@@ -9,9 +9,9 @@ const ViewBlogs = () => {
   return (
     <>
       <div className='d-flex'>
-        <aside className='sidebar'>
-          <Sidebar />
-        </aside>
+        
+          <SliderSidebar/>
+        
 
 
         <main className="container">
@@ -67,10 +67,48 @@ const ViewBlogs = () => {
                 </div>
               </div>
             </div>
+
+
+
+
+
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBlogFour" aria-expanded="false" aria-controls="collapseBlogFOur">
+                  Blog #4
+                </button>
+              </h2>
+              <div id="collapseBlogFour" className="accordion-collapse collapse" aria-labelledby="headingBlogFour" data-bs-parent="#blog1">
+                <div className="accordion-body">
+                <Link to="/displayblog">View</Link>
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBlogFive" aria-expanded="false" aria-controls="collapseBlogFive">
+                  Blog #5
+                </button>
+              </h2>
+              <div id="collapseBlogFive" className="accordion-collapse collapse" aria-labelledby="headingBlogFive" data-bs-parent="#blog1">
+                <div className="accordion-body">
+                <Link to="/displayblog">View</Link>
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classNamees that we use to style each element. These classNamees control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+
+
+         
+
+
           </div>
           <br></br>
 
           <Link to="/addAtale">Add A Tale</Link>
+          
         </div>
       </main>
     </div >

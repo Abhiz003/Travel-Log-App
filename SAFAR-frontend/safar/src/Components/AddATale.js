@@ -16,7 +16,7 @@ const AddATale = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container p-4">
         <form>
           <div className="form-group">
             <label htmlFor="blog-title">Title:</label>
@@ -61,7 +61,7 @@ const AddATale = () => {
               </ul>
             </div>
           </div>
-
+        <hr/>
           <div className="form-group">
             <label htmlFor="exampleInputPassword1">Place Name</label>
             <input type="text" className="form-control" id="exampleInputPassword1" name="placeName" placeholder="Password" />
@@ -83,8 +83,8 @@ const AddATale = () => {
             <label for="exampleFormControlTextarea1">Description: </label>
             <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-
-          <button >Add Log</button>
+      <hr/> <br></br>
+          <button className="btn btn-outline-success m-2">Add Log</button>
 
           {/* ----------miniLogs---------- */}
           {/* <div className="form-group">
