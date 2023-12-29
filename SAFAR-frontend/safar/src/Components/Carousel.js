@@ -6,33 +6,26 @@ import '../App.css';
 const Carousel = () => {
     return (
         <>
-            <div className="carousel-container">
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img className="d-block w-100" src="Imgs/OWL.png" alt="First slide" />
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Imgs/OWL.png" class="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="Imgs/Icelands.jpg" alt="Second slide" />
+                    <div class="carousel-item">
+                        <img src="Imgs/SunlightImg.jpg" class="d-block w-100" alt="..." />
                     </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="Imgs/SunlightImg.jpg"  alt="Third slide" />
-                    </div>
-                    <div className="carousel-item">
-                        <img className="d-block w-100" src="Imgs/vectorCity1.jpg" alt="Fourth slide" />
-
+                    <div class="carousel-item">
+                        <img src="Imgs/Icelands.jpg" class="d-block w-100" alt="..." />
                     </div>
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-            </div>
-           
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </>
     )

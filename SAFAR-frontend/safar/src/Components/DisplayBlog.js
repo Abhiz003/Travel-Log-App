@@ -2,7 +2,7 @@ import React from 'react'
 import '../Styles/Display.css'
 import {Link} from 'react-router-dom'
 
-const Display = () => {
+const DisplayBlog = () => {
 
 
 
@@ -53,6 +53,6 @@ const Display = () => {
 	)
 }
 
-export default Display
+export default DisplayBlog
 
 
