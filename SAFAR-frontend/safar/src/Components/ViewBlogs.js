@@ -108,6 +108,7 @@ const ViewBlogs = () => {
           <br></br>
 
           <Link to="/addAtale">Add A Tale</Link>
+          <Link to="/addblog">Add a Blog</Link>
           
         </div>
       </main>

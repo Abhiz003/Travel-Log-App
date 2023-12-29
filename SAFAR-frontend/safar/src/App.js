@@ -14,6 +14,7 @@ import Login from './AuthPages/Login'
 import SignUp from './AuthPages/SignUp'
 import IntroPage from './Components/IntroPage';
 import Card1 from './Components/Card1';
+import AddBlog from './Components/AddBlog';
 // import Footer from './Components/Footer';
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Route path='/displayblog' element={<DisplayBlog />} />
           <Route path='/triplog' element={<TripLog />} />
           <Route path='/addAtale' element={<AddATale />} />
+          <Route path='/addblog' element={<AddBlog/>} />
           <Route path='/shareJourney' element={<ShareJourney />} />
 
           <Route path='/login' element={<Login />} />
