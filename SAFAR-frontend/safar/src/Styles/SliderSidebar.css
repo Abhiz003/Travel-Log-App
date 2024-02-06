@@ -73,7 +73,7 @@ label #cancel{
 }
 /*----------------------main section------------------*/
 .main-screen{
-    background: #E7AB9A;
+    /* background: #E7AB9A; */
                 /* url(./images/Heros2.jpg) no-repeat; */
     background-position: center;
     background-size: cover;

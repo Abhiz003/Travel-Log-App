@@ -7,7 +7,6 @@ import AllUsers from './Components/AllUsers'
 import ViewBlogs from './Components/ViewBlogs'
 import DisplayBlog from './Components/DisplayBlog'
 import TripLog from './Components/TripLog'
-import AddATale from './Components/AddATale'
 import ShareJourney from './Components/ShareJourney';
 
 import Login from './AuthPages/Login'
@@ -15,6 +14,7 @@ import SignUp from './AuthPages/SignUp'
 import IntroPage from './Components/IntroPage';
 import Card1 from './Components/Card1';
 import AddBlog from './Components/AddBlog';
+import CreateLogs from './Components/CreateLogs';
 // import Footer from './Components/Footer';
 
 function App() {
@@ -28,13 +28,13 @@ function App() {
           <Route path='/' element={<IntroPage />} />
           <Route path='/intro' element={<IntroPage/>} />
           <Route path='/home' element={<Home />} />
-          <Route path='/feed' element={<Feed />} />
-          <Route path='/feed/allusers' element={<AllUsers />} />
+          <Route path='/feed' element={<Feed />} >
+            <Route path='allusers' element={<AllUsers />} />
+          </Route>
           <Route path='viewblogs' element={<ViewBlogs />} />
-
           <Route path='/displayblog' element={<DisplayBlog />} />
           <Route path='/triplog' element={<TripLog />} />
-          <Route path='/addAtale' element={<AddATale />} />
+          <Route path='/createLogs' element={<CreateLogs />} />
           <Route path='/addblog' element={<AddBlog/>} />
           <Route path='/shareJourney' element={<ShareJourney />} />
 

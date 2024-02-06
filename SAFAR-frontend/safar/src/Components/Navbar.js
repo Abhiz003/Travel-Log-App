@@ -5,7 +5,7 @@ import '../Styles/Navbar.css'
 const Navbar = () => {
 	return (
 		<>
-			<nav className="navbar">
+			<nav className="navbar bg1">
 				<div className='col-1'>
 					<Link to="/intro" >
 						<img src="Images/safar_logo.png" className="logo" alt="SAFAR" />
@@ -15,7 +15,7 @@ const Navbar = () => {
 				<div className='navlinks1'>
 					<ul className='d-flex'>
 						<Link to="/home" className="btn btn-primary">HOME</Link>
-						<Link to="/feed/allusers" className="btn btn-primary">FEED</Link>
+						<Link to="/feed" className="btn btn-primary">FEED</Link>
 						<Link to="/viewblogs" className="btn btn-primary">BLOGS</Link>
 						<Link to="/signup" className="btn btn-warning">SIGNUP</Link>
 						<Link to="/login" className="btn btn-success">LOGIN</Link>
